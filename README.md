@@ -16,7 +16,6 @@
    - お問い合わせ (/contact)
 
 ## プロジェクト構造
-
 ega-denko/
 ├── src/
 │   ├── app/
@@ -31,11 +30,10 @@ ega-denko/
 │   │       └── page.tsx      # お問い合わせページ
 │   ├── components/
 │   │   ├── Header.tsx        # ヘッダーコンポーネント
-│   │   ├── Footer.tsx        # フッターコンポーネント
-│   │   └── ui/              # 共通UIコンポーネント
-│   └── lib/                 # ユーティリティ関数など
+│   │   └── Footer.tsx        # フッターコンポーネント
+│   └── lib/                  # ユーティリティ関数など
 ├── public/
-│   └── images/             # 画像ファイル
+│   └── images/              # 画像ファイル
 ├── package.json
 ├── tailwind.config.js
-└── tsconfig.json 
+└── tsconfig.json
